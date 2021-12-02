@@ -3,7 +3,8 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "2efbb41d7877d10aac9d091f58ccd7b9",
+  "assets/AssetManifest.json": "cc7d825a874fbc6e2d2e2804528e84ac",
+"assets/assets/images/carriedaway.jpg": "acbdff26b567ad7709f020bcc463a1bf",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
 "assets/NOTICES": "8b5f0b8e497484f7604f333baa4fbc5b",
@@ -13,9 +14,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "218c1e9795ed6a6e67b60171e47823cd",
-"/": "218c1e9795ed6a6e67b60171e47823cd",
-"main.dart.js": "b05754c1dc2f2a879328bce0be3e73d5",
+"index.html": "97c5d005a38825fe086ebe744c103c55",
+"/": "97c5d005a38825fe086ebe744c103c55",
+"main.dart.js": "36730438c7c07d1b9b112de55fc360a0",
 "manifest.json": "04fadd4ca15b58850b890f34d1eb9f97",
 "version.json": "24188a9e71ad715cb352d2e865fbeb8c"
 };
