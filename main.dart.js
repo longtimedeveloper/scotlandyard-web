@@ -45896,7 +45896,7 @@ F.oX.prototype={
 b9(){return new F.CF(C.r)}}
 F.CF.prototype={
 a3(a,b){var s=null
-return T.YK(new U.p_(M.acv(s,s,new L.nZ("assets/carriedaway.jpg",s,s)),750,1000,s),s,s)}}
+return T.YK(new U.p_(M.acv(s,s,new L.nZ("images/carriedaway.jpg",s,s)),750,1000,s),s,s)}}
 E.hj.prototype={
 gl(a){return this.b},
 i(a,b){if(b>=this.b)throw H.b(P.b5(b,this,null,null,null))
