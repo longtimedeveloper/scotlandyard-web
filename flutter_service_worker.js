@@ -16,7 +16,7 @@ const RESOURCES = {
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "index.html": "bc10968b6d7bcfc2312e182d0c39a21e",
-"/": "bc10968b6d7bcfc2312e182d0c39a21e",
+"": "bc10968b6d7bcfc2312e182d0c39a21e",
 "main.dart.js": "0629bf438464141746df08ebe9dc55cb",
 "manifest.json": "b4f0fce2a9692c354c85822af84888ab",
 "version.json": "e3ce0b049b2e1c74fbf39565dd7fb2dc"
@@ -25,7 +25,7 @@ const RESOURCES = {
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = [
-  "/",
+  "",
 "main.dart.js",
 "index.html",
 "assets/NOTICES",
@@ -70,7 +70,7 @@ self.addEventListener("activate", function(event) {
       for (var request of await contentCache.keys()) {
         var key = request.url.substring(origin.length + 1);
         if (key == "") {
-          key = "/";
+          key = "";
         }
         // If a resource from the old manifest is not in the new cache, or if
         // the MD5 sum has changed, delete it. Otherwise the resource is left
@@ -159,7 +159,7 @@ async function downloadOffline() {
   for (var request of await contentCache.keys()) {
     var key = request.url.substring(origin.length + 1);
     if (key == "") {
-      key = "/";
+      key = "";
     }
     currentContent[key] = true;
   }
